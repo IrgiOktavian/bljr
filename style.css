@@ -1,5 +1,5 @@
 .irgi{
     transform: rotate(50deg);
     
-    position:static;
+    position: absolute;
 }
