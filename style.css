@@ -1,5 +1,69 @@
-.irgi{
-    transform: rotate(50deg);
-    
-    position: absolute;
+.container{
+    width: 80%;
+    margin-inline: auto;
 }
+.navbar{
+    padding: 25px 0;
+
+}
+.navbar-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-box .menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+ .navbar-box .menu li{
+  list-style-type: none;  
+ }
+
+ .navbar-box .menu li a{
+    text-decoration: none;
+    color:black;
+ }
+
+ 
+    .navbar-box .menu {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 40px;
+        background-color:bisque;
+        padding: 20px;
+        backdrop-filter: blur(10px);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .navbar-box{
+        justify-content: center;
+    }
+   
+    .navbar-box li a{
+        color: blueviolet;
+    }
+
+    .irgi1 {
+        background-image: linear-gradient(rgb(0, 0, 8), rgb(0, 0, 8)),url(/bljr/gambar/PBNew.jpg);
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        color:white;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+   
